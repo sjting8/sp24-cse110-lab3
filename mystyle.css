@@ -13,12 +13,14 @@ h1 {
     text-decoration: underline;
     text-align: center;
     margin-left: 10px;
+    position: sticky;
 }
 
 h2 {
     --heading-color: #0D9B3C;
     color: var(--heading-color, green); /* green */
     margin-left: 0.5cm;
+    position: static;
 }
 
 h3 {
