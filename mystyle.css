@@ -8,6 +8,10 @@
     text-decoration: underline;
 }
 
+li[class="italics"] {
+    font-style: italic;
+}
+
 .mediaElement {
     display:grid;
     grid-template-columns: 900px;
