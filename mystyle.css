@@ -38,6 +38,7 @@ ol {
 }
 
 ul {
+    display: inline-block;
     border-style: solid;
     border-color: color(rec2020 0.6 0.1 1 / 0.4);
     padding-top: 5px;
