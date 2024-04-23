@@ -36,6 +36,7 @@ h3:active {
 }
 
 ol {
+    display: block;
     margin:auto;
     padding: 5px 2px 5px 2px;
     border-style: solid;
@@ -59,9 +60,12 @@ ul {
 }
 
 form {
-    display: block;
-    max-width: 980px;
+    max-width: 1920px;
     min-width: 200px;
+    display: flex;
+    align-items: flex-start;
+    align-self: center;
+    gap: 10px;
 }
 
 audio {
@@ -69,9 +73,3 @@ audio {
     width: 300px;
 }
 
-form {
-    display: flex;
-    align-items: flex-start;
-    align-self: center;
-    gap: 10px;
-}
