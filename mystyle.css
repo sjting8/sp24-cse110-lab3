@@ -69,3 +69,10 @@ audio {
     height: 60px;
     width: 300px;
 }
+
+form {
+    display: flex;
+    align-items: flex-start;
+    align-self: center;
+    gap: 10px;
+}
