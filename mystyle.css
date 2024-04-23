@@ -24,3 +24,13 @@ ol {
     border-right-width: 0.75px;
     border-radius: 1px;
 }
+
+ul {
+    border-style: solid;
+    border-color: color(rec2020 0.6 0.1 1 / 0.4);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 30px 100px 30px 10px;
+}
