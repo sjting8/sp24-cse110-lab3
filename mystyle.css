@@ -9,10 +9,12 @@ footer {
 }
 
 h1 {
+    font-family: "Jersey 10";
     color: rgb(187, 17, 116); /* red */
     text-decoration: underline;
     text-align: center;
     position: sticky;
+    top: 0.4em;
 }
 
 h2 {
