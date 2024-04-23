@@ -12,8 +12,7 @@ h1 {
     color: rgb(187, 17, 116); /* red */
     text-decoration: underline;
     text-align: center;
-    margin-left: 10px;
-    position: sticky;
+    position: absolute;
 }
 
 h2 {
