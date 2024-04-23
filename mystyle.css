@@ -25,13 +25,13 @@ h3 {
 
 ol {
     margin:auto;
-    padding: 5px 1px 5px 1px;
+    padding: 5px 2px 5px 2px;
     border-style: solid;
     border-color: color-mix(in srgb, #34c9eb 40%, white);
     border-top-width: 1px;
     border-bottom-width: 1px;
-    border-left-width: 0.75px;
-    border-right-width: 0.75px;
+    border-left-width: 1em;
+    border-right-width: 1em;
     border-radius: 2px;
 }
 
