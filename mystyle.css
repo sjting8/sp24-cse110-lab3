@@ -62,14 +62,18 @@ ul {
 }
 
 form {
-    max-width: 1920px;
-    min-width: 200px;
     display: flex;
     align-items: flex-start;
     align-self: center;
     gap: 10px;
 }
 
+@media screen and (min-width) {
+    form {
+        max-width: 1920px;
+        min-width: 200px;
+    }
+}
 audio {
     height: 60px;
     width: 300px;
