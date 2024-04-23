@@ -1,3 +1,13 @@
+footer {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border-color: brown;
+    border-style: solid;
+
+}
+
 h1 {
     color: rgb(187, 17, 116); /* red */
     margin-left: 20px;
@@ -15,12 +25,22 @@ h3 {
 
 ol {
     margin:auto;
-    padding: 0.5 0.5 0.5 0.5;
+    padding: 5px 2px 5px 2px;
     border-style: solid;
-    border-color: color-mix(in srgb, #34c9eb 25%, white);
+    border-color: color-mix(in srgb, #34c9eb 40%, white);
     border-top-width: 1px;
     border-bottom-width: 1px;
-    border-left-width: 0.75px;
-    border-right-width: 0.75px;
-    border-radius: 1px;
+    border-left-width: 1em;
+    border-right-width: 1em;
+    border-radius: 2px;
+}
+
+ul {
+    border-style: solid;
+    border-color: color(rec2020 0.6 0.1 1 / 0.4);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 15vh 10vw 15vh 10vw;
 }
