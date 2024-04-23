@@ -52,3 +52,8 @@ form {
     max-width: 980px;
     min-width: 200px;
 }
+
+video {
+    height: 60px;
+    width: 300px;
+}
