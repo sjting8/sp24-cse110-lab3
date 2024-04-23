@@ -16,7 +16,8 @@ h1 {
 }
 
 h2 {
-    color: #0D9B3C; /* green */
+    --heading-color: #0D9B3C;
+    color: var(--heading-color, green); /* green */
     margin-left: 0.5cm;
 }
 
@@ -54,7 +55,7 @@ form {
     min-width: 200px;
 }
 
-video {
+audio {
     height: 60px;
     width: 300px;
 }
