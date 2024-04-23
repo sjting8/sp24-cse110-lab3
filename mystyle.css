@@ -15,14 +15,14 @@ h3 {
 
 ol {
     margin:auto;
-    padding: 0.5 0.5 0.5 0.5;
+    padding: 5px 1px 5px 1px;
     border-style: solid;
-    border-color: color-mix(in srgb, #34c9eb 25%, white);
+    border-color: color-mix(in srgb, #34c9eb 40%, white);
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 0.75px;
     border-right-width: 0.75px;
-    border-radius: 1px;
+    border-radius: 2px;
 }
 
 ul {
@@ -32,5 +32,5 @@ ul {
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
-    margin: 30px 100px 30px 10px;
+    margin: 30px 10px 30px 10px;
 }
