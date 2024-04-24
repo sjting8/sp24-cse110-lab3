@@ -7,7 +7,7 @@ select ~ option {
 }
 
 div p {
-    color: pink;
+    color: rgb(248, 94, 120);
 }
 
 ol > li {
@@ -62,7 +62,6 @@ h2 {
     color: var(--heading-color, green); /* green */
     margin-left: 0.5cm;
     position: static;
-    top: 100px;
 }
 
 h3 {
