@@ -1,3 +1,11 @@
+p + span {
+    font-weight: lighter;
+}
+
+select ~ option {
+    color:grey;
+}
+
 div p {
     color: pink;
 }
