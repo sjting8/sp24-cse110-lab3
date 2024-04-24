@@ -79,7 +79,7 @@ h3:has(+ p) {
 }
 
 h3 {
-    color: hsl(219,72,50); /* blue */
+    color: hsl(219, 68%, 49%); /* blue */
     margin-left: 15mm;
 }
 
