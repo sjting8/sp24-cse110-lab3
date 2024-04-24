@@ -74,6 +74,10 @@ h2 {
     position: static;
 }
 
+h3:has(+ p) {
+    margin-bottom:0.5rem;
+}
+
 h3 {
     color: hsl(219,72,50); /* blue */
     margin-left: 15mm;
