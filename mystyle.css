@@ -1,3 +1,13 @@
+form {
+    & ~ input{
+        background-color: lightblue;
+    }
+}
+
+li.absent {
+    color: darkred;
+}
+
 p + span {
     font-weight: lighter;
 }
